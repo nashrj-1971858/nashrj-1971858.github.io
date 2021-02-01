@@ -1,0 +1,52 @@
+body {
+    background-image: url('dark_wood.png');
+}
+
+#bow {
+
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  /* Centered text */
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#Content {
+    border: solid 8px black;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+
+}
+textarea  {
+    float: center;
+  }
+  blockquote  {
+    float: center;
+  }
+  button  {
+    float: right;
+  }
+#Footer {
+    border: solid 8px black;
